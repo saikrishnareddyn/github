@@ -14,12 +14,9 @@ const App = () => {
   return (
     <GithubState>
       <AlertState>
-        {" "}
         <Router>
           <div className="App">
-            {/* <Navbar title="Github Finder" icon="fab fa-github" />  this is one type of passing props we declare default props in Navbar component but if we mention here it wil overwrite */}
             <Navbar />
-            {/* <UserItem /> */}
             <div className="container">
               <Alert />
               <Switch>
